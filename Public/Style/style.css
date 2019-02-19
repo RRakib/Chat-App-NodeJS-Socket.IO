@@ -1,0 +1,55 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url("/Image/Background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+    font-family: "Montserrat";
+}
+h2{
+    font-size: 32px;
+    margin: 15px 0;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.container .body{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto 20px;
+    border: 2px solid #16aefd;
+    border-radius: 10px;
+    background: #eee;
+}
+input:nth-child(1){
+    width: 20%;
+    background: #eee;
+    border: none;
+    outline: none;
+    height: 27px;
+    padding: 0 0 0 14px;
+    border-radius: 2px;
+
+}
+input:nth-child(2){
+    width: 60%;
+    background: #eee;
+    border: none;
+    outline: none;
+    height: 27px;
+    padding: 0 0 0 14px;
+    border-radius: 2px;
+}
+button{
+    padding: 5px 18px;
+    background: rgba(0,0,0,.2);
+    border: #16aefd 2px solid;
+    color: #eee;
+    font-size: 16px;
+}
