@@ -7,8 +7,7 @@ let btn = document.querySelector("#btn");
 let feedback = document.querySelector("#feedback");
 
 // Passing Data To Server
-btn.addEventListener("click" , (e) => {
-    e.preventDefault();
+btn.addEventListener("click" , () => {
     socket.emit("chat" , {
         message : text.value,
         name : name.value
