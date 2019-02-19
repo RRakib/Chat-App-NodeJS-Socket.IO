@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
     <link rel="stylesheet" href="/Style/style.css">
     <title>ChatApp</title>
 </head>
@@ -11,16 +12,22 @@
     <div class="container">
         <h2>Chat Time</h2>
         <div class="body">
-                <div class="chat"></div>
+                <div class="chat" id="chat">
+                        <div id="feedback"></div>
+                </div>
+
+
                 <div class="form">
-                    <form action="">
-                        <input type="text" class="name" placeholder="Name..." />
+                    <form>
+                        <input type="text" id="name" class="name" placeholder="Name..." />
                         <br />
-                        <input type="text" class="text" placeholder="Text..."/>
-                        <button class="chat"> Chat </button>
+                        <input type="text" id="text" class="text" placeholder="Text..."/>
+                        <button id="btn"> Chat </button>
                     </form>
                 </div>
         </div>
     </div>
+
+    <script src="/JavaScript/main.js"></script>
 </body>
 </html>

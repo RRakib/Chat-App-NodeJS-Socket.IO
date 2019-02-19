@@ -15,7 +15,7 @@ h2{
     margin: 10% 0 0;
 }
 .container{
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 .container .body{
@@ -23,14 +23,20 @@ h2{
     width: 100%;
     border: 2px solid #16aefd;
     border-radius: 10px;
-    background: #eee;
+    background: rgba(255,255,255, .3);
     overflow: hidden;
     display: grid;
     grid-template-rows: 82.7% 16.3%;
 }
+.chat{
+    width: 95%;
+    padding: 10px 0;
+    margin: 0 auto;
+    
+}
 input{
     width: 100%;
-    background: #eee;
+    background: #ffffffdb;
     border: none;
     outline: none;
     height: 27px;
@@ -42,7 +48,7 @@ input{
 button{
     width: 100%;
     padding: 3px;
-    background: rgba(0,0,0,.15);
+    background: rgba(255,255,255,.65);
     border: none;
     color: #1997ff;
     font-size: 20px;
