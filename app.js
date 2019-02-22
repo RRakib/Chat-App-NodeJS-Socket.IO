@@ -8,7 +8,7 @@ app.use(express.static("./Public"))
 
 controller(app);
 
-let server = app.listen(4000 , () => {
+let server = app.listen(process.env.PORT || 4000 , () => {
     console.log("Listening To Post 4000")
 })
 

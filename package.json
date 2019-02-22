@@ -4,6 +4,7 @@
   "description": "Chat App Created With Node Express and Socket.io",
   "main": "app.js",
   "scripts": {
+    "start" : "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,7 +18,14 @@
     "express": "^4.16.4",
     "socket.io": "^2.2.0"
   },
+  "engines" : {
+    "node" : "10.10.0"
+  },
   "devDependencies": {
     "nodemon": "^1.18.10"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/RRakib/Chat-App-NodeJS-Socket.IO"
   }
 }
